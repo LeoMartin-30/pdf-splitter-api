@@ -9,7 +9,7 @@ app = Flask(__name__)
 @app.route('/', methods=['GET'])
 def home():
     return jsonify({
-        "service": "Liime PDF Splitter API",
+        "service": "PDF Splitter API",
         "version": "1.0.0",
         "status": "running",
         "endpoints": {
